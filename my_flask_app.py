@@ -53,4 +53,4 @@ def save_prices():
     return "Data saved to coin_data.csv"
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=8080)
